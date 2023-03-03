@@ -215,13 +215,6 @@ section{
   gap: 20px;
 }
 
-.skill-box{
-  
-  width: 300px;
-  height: 300px;
-  box-shadow: 0px 1px 20px 0px rgb(203, 203, 203);
-
-}
 
 #skills > h1{
   font-size: 3rem;
@@ -238,7 +231,7 @@ section{
 #skills .box-container .box{
   flex: 1 1 30rem;
   text-align: center;
-  padding: 4rem;
+  padding: 3rem;
   background: #fff;
   border-radius: .5rem;
   box-shadow: 0px 1px 20px 0px rgb(203, 203, 203);
@@ -263,7 +256,7 @@ section{
 }
 
 #projects .box-container .box{
-  flex: 1 1 30rem;
+  flex: 1 1 20rem;
   text-align: left;
   padding: 4rem;
   background: #fff;
@@ -282,6 +275,7 @@ section{
 }
 
 #projects .box-container .box h3{
+  color: rgb(255, 183, 0);
   font-size: 2rem;
 }
 
